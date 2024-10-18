@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>محاكي هجمات الهندسة الاجتماعية</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">محاكي هجمات الهندسة الاجتماعية</h1>
+        <p class="mt-3">رسالة البريد الإلكتروني:</p>
+        <div class="alert alert-warning">{{ email }}</div> <!-- عرض الرسالة -->
+
+        <form action="/phishing-simulation" method="POST">
+            <p>هل ستقوم بالنقر على الرابط؟</p>
+            <button type="submit" name="choice" value="yes" class="btn btn-success">نعم</button>
+            <button type="submit" name="choice" value="no" class="btn btn-danger">لا</button>
+        </form>
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-info">{{ message }}</div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    </div>
+</body>
+</html>
+

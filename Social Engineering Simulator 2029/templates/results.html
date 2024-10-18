@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>نتائج المحاكاة</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>نتائج المحاكاة</h1>
+        <p>عدد المحاولات: {{ attempts }}</p>
+        <p>عدد المحاولات الناجحة: {{ successful_attempts }}</p>
+        <p>نسبة النجاح: {{ score }}%</p>
+        <a href="/new-simulation" class="btn btn-primary">بدء محاكاة جديدة</a>
+        <a href="/" class="btn btn-secondary">العودة إلى الصفحة الرئيسية</a>
+    </div>
+</body>
+</html>

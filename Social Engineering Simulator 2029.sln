@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Social Engineering Simulator 2029", "Social Engineering Simulator 2029\Social Engineering Simulator 2029.pyproj", "{2E6FADE1-5805-4B9D-8A22-538967C0EE50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E6FADE1-5805-4B9D-8A22-538967C0EE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6FADE1-5805-4B9D-8A22-538967C0EE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6FADE1-5805-4B9D-8A22-538967C0EE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6FADE1-5805-4B9D-8A22-538967C0EE50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7E01C9B-903D-41C7-8076-2A5004E17862}
+	EndGlobalSection
+EndGlobal
