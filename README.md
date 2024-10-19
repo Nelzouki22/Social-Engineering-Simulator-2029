@@ -1,6 +1,5 @@
 # Social Engineering Simulator 2025 - Phishing Email Simulation
 
-## Overview
 The Social Engineering Simulator 2025 project aims to educate users about the various tactics used in social engineering attacks, particularly phishing. Through interactive simulations, users can experience realistic scenarios that help them identify potential threats and improve their cybersecurity awareness.
 
 ## Features
@@ -25,9 +24,13 @@ Open your browser and navigate to http://127.0.0.1:5000/ to start the simulation
 
 Contact Information
 Email: elzoukigroup2018@gmail.com
-LinkedIn: Nadir Elzouki
-YouTube: Nadir Elzouki
+
+LinkedIn: [Nadir Elzouki](https://www.linkedin.com/in/nadir-elzouki-40679a1a9/)
+
+YouTube: [Nadir Elzouki](https://www.youtube.com/@nadirelzouki4529)
+
 GitHub: Nelzouki22
+
 YouTube Project Overview
 Watch the project video here[.](https://youtu.be/H3tHcZQqUvA)
 
@@ -57,8 +60,11 @@ python app.py
 
 معلومات الاتصال
 البريد الإلكتروني: elzoukigroup2018@gmail.com
-LinkedIn: Nadir Elzouki
-YouTube: Nadir Elzouki
+
+LinkedIn: [Nadir Elzouki](https://www.linkedin.com/in/nadir-elzouki-40679a1a9/)
+
+YouTube: [Nadir Elzouki](https://www.youtube.com/@nadirelzouki4529)
+
 GitHub: Nelzouki22
 نظرة عامة على مشروع YouTube
 شاهد الفيديو الخاص بالمشروع [هنا](https://youtu.be/H3tHcZQqUvA).
